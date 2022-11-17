@@ -1,0 +1,197 @@
+{% extends 'base.html' %} {% block content %}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+ .container {
+  position : flex;
+  width : 80%;
+  margin-left : 10%;
+  margin-bottom : 10px;
+      }
+.collapsible{
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  position : flex;
+  width : 100%;
+  text-align: center;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content{
+  background-color: white;
+  padding: 0 18px;
+  display: none;
+  position:relative;
+  overflow: hidden;
+  width: 100%;
+  margin:10px auto;
+
+}
+
+.glow-on-hover {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #777;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+.fitting{
+
+width:100%;
+}
+</style>
+</head>
+
+<section class="hero is-white is-fullheight">
+
+    <div id="particles-js"></div>
+
+    <div class="text">
+        <h1>Particles Background</h1>
+        <p>Using
+            <a href="https://github.com/VincentGarreau/particles.js/">ParticlesJS</a> and well.. that's about it, actually ¯\_(ツ)_/¯</p>
+    </div>
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="is-size-3 text-logo">
+                <strong>DSS</strong>search</h1>
+            <br>
+            <br>
+
+            <div class="columns">
+                <div class="column is-6-desktop is-offset-3-desktop">
+                    <form action="/app/context_result1" method="post">
+                        {% csrf_token %}
+                        <div class="field">
+                            <div class="control has-icons-right">
+                                <div class="autocomplete">
+                                    <input name="name" id="search-input" placeholder="context" class="input is-medium" type="text" autofocus="true">
+                                </div>
+                                <div class="output"></div>
+                                <span class="icon is-medium is-right">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="control has-text-centered">
+                            <input class="button is-light is-medium" type="submit" value="Search">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            {% for item, item2 in my_list %}
+             <div class="container">
+                <button type="button" class="collapsible glow-on-hover"> {{item}} </button>
+                <div class="content">
+                  <div class="fitting">
+                      <p> {{item2 }} </p>
+                     <a href="/app/details/?Name={{item}}"> <button type="button"  class="input is-medium">Show More </button> </a>
+                </div>
+                    </div>
+
+                  </div>
+            <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "flex") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "flex";
+                }
+              });
+            }
+            </script>
+
+{% endfor %}
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+</section>
+
+
+
+
+{% endblock %}
+
+
+
+
+
+
+

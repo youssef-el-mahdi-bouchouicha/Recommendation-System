@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:pr="http://example.org/projectOntology/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://example.org/projectOntology/estimate_costs_Inputs"/>
+  <owl:ObjectProperty rdf:about="http://example.org/projectOntology/requires">
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/decomposition"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/decomposition_requires"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org/projectOntology/Described_in">
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/project_charter"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/project_management_plan"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/enterprise_environmental_factors"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/organizational_process_assets"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/expert_judgment"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/data_analysis"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/meetings"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/scope_management_plan"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/requirements_management_plan"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/project_documents"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/business_documents"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/agreements"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/data_gathering"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/decision_making"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/data_representation"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/interpersonal_and_team_skills"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/context_diagram"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/prototypes"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/requirements_documentation"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/requirements_traceability_matrix"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/product_analysis"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/project_scope_statement"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/project_documents_updates"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/decomposition"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/scope_baseline"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/verified_deliverables"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/work_performance_data"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/inspection"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/accepted_deliverables"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/work_performance_information"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/change_requests"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/project_management_plan_updates"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/schedule_management_plan"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/rolling_wave_planning"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/activity_list"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/activity_attributes"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/milestone_list"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/precedence_diagramming_method"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/dependency_determination_and_integration"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/leads_and_lags"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/project_management_information_system"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/project_schedule_network_diagrams"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/analogous_estimating"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/parametric_estimating"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/three"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/bottom"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/duration_estimates"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/basis_of_estimates"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/schedule_network_analysis"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/critical_path_method"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/resource_optimization"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/schedule_compression"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/agile_release_planning"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/schedule_baseline"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/project_schedule"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/schedule_data"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/project_calendars"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/schedule_forecasts"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/cost_management_plan"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/cost_estimates"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/cost_aggregation"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/historical_information_review"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/funding_limit_reconciliation"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/financing"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/cost_baseline"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/project_funding_requirements"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/cost_forecasts"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="http://example.org/projectOntology/define_activities_Outputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/control_costs_Outputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/determine_budget_Tools_and_techniques"/>
+  <owl:ObjectProperty rdf:about="http://example.org/projectOntology/describes">
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/project_charter"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/project_management_plan"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/requirements_management_plan"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/work_performance_data"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/project_charter_describes"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/project_management_plan_describes"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/requirements_management_plan_describes"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/work_performance_data_describes"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://example.org/projectOntology/plan_scope_management_Outputs"/>
+  <owl:ObjectProperty rdf:about="http://example.org/projectOntology/uses">
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/interpersonal_and_team_skills"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/requirements_documentation"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/product_analysis"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/analogous_estimating"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/schedule_compression"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/interpersonal_and_team_skills_uses"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/requirements_documentation_uses"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/product_analysis_uses"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/analogous_estimating_uses"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/schedule_compression_uses"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://example.org/projectOntology/considers">
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/project_documents"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/project_documents_considers"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://example.org/projectOntology/determine_budget_Outputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/prototypes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/collect_requirements"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/prototypes"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/prototypes_prototypes"/>
+    <pr:prototypes rdf:resource="http://example.org/projectOntology/prototypes_prototypes"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> prototypes prototyping is a method of obtaining early feedback on requirements by providing a model of the expected product before actually building it. examples of prototypes are small scale products  computer generated enterprise environmental factorsd and threed models  mock ups  or simulations. prototypes allow stakeholders to experiment with a model of the final product rather than being limited to discussing abstract representations of their requirements. prototypes support the concept of progressive elaboration in iterative cycles of mock up creation  user experimentation  feedback generation  and prototype revision. when enough feedback cycles have been performed  the requirements obtained from the prototype are sufficiently complete to move to a design or build phase. storyboarding is a prototyping technique showing sequence or navigation through a series of images or illustrations. storyboards are used on a variety of projects in a variety of industries  such as film  advertising  instructional design  and on agile and other software development projects. in software development  storyboards use mock ups to show navigation paths through web pages  screens  or other user interfaces.</rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.2.2.8</pr:Described_in>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://example.org/projectOntology/completes">
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/change_requests"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/change_requests_completes"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://example.org/projectOntology/reviews">
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/schedule_data"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/historical_information_review"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/schedule_data_reviews"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/historical_information_review_reviews"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://example.org/projectOntology/define_scope_Outputs"/>
+  <owl:ObjectProperty rdf:about="http://example.org/projectOntology/includes">
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/work_performance_data"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/inspection"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/work_performance_information"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/project_management_information_system"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/project_funding_requirements"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/work_performance_data_includes"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/inspection_includes"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/work_performance_information_includes"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/project_management_information_system_includes"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/project_funding_requirements_includes"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://example.org/projectOntology/plan_schedule_management_Tools_and_techniques"/>
+  <owl:ObjectProperty rdf:about="http://example.org/projectOntology/overarchs">
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/schedule_network_analysis"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/schedule_network_analysis_overarchs"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://example.org/projectOntology/collect_requirements_Tools_and_techniques"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/control_schedule_Outputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/control_costs_Tools_and_techniques"/>
+  <owl:ObjectProperty rdf:about="http://example.org/projectOntology/techniques">
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/data_representation"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/data_representation_techniques"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://example.org/projectOntology/create_wbs_Outputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/estimate_activity_durations_Tools_and_techniques"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/plan_cost_management_Tools_and_techniques"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/determine_budget_Inputs"/>
+  <owl:ObjectProperty rdf:about="http://example.org/projectOntology/updates">
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/activity_attributes"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/cost_estimates"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/activity_attributes_updates"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/cost_estimates_updates"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://example.org/projectOntology/plan_cost_management_Inputs"/>
+  <owl:DatatypeProperty rdf:about="http://example.org/projectOntology/Is_Depicted_in">
+    <rdfs:domain>
+      <rdf:Description rdf:about="http://example.org/projectOntology/context_diagram_decomposition">
+        <pr:Is_Depicted_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Figure 5-6</pr:Is_Depicted_in>
+      </rdf:Description>
+    </rdfs:domain>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/precedence_diagramming_method"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/duration_estimates"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/agile_release_planning"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/cost_estimates"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://example.org/projectOntology/incorporates">
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/scope_baseline"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/schedule_baseline"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/cost_baseline"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/scope_baseline_incorporates"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/schedule_baseline_incorporates"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/cost_baseline_incorporates"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://example.org/projectOntology/define_scope_Inputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/plan_scope_management_Inputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/plan_schedule_management_Inputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/estimate_costs_Outputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/control_schedule_Inputs"/>
+  <owl:Ontology rdf:about="http://example.org/projectOntology/"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/plan_schedule_management_Outputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/control_scope_Tools_and_techniques"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/plan_cost_management_Outputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/sequence_activities_Inputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/define_scope_Tools_and_techniques"/>
+  <owl:ObjectProperty rdf:about="http://example.org/projectOntology/estimates">
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/parametric_estimating"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/bottom"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/parametric_estimating_estimates"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/bottom_estimates"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://example.org/projectOntology/sequence_activities_Tools_and_techniques"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/validate_scope_Tools_and_techniques"/>
+  <owl:ObjectProperty rdf:about="http://example.org/projectOntology/schedules">
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/milestone_list"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/milestone_list_schedules"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://example.org/projectOntology/shows">
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/context_diagram"/>
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/decomposition"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/context_diagram_shows"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/decomposition_shows"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://example.org/projectOntology/control_schedule_Tools_and_techniques"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/develop_schedule_Inputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/define_activities_Inputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/control_scope_Inputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/develop_schedule_Tools_and_techniques"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/estimate_costs_Tools_and_techniques"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/sequence_activities_Outputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/control_scope_Outputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/estimate_activity_durations_Inputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/develop_schedule_Outputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/validate_scope_Outputs"/>
+  <owl:ObjectProperty rdf:about="http://example.org/projectOntology/provides">
+    <rdfs:domain rdf:resource="http://example.org/projectOntology/agile_release_planning"/>
+    <rdfs:range rdf:resource="http://example.org/projectOntology/agile_release_planning_provides"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://example.org/projectOntology/create_wbs_Tools_and_techniques"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/define_activities_Tools_and_techniques"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/collect_requirements_Outputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/estimate_activity_durations_Outputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/plan_scope_management_Tools_and_techniques"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/create_wbs_Inputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/validate_scope_Inputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/collect_requirements_Inputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/control_costs_Inputs"/>
+  <owl:Class rdf:about="http://example.org/projectOntology/schedule_compression">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/develop_schedule"/>
+    <pr:uses rdf:resource="http://example.org/projectOntology/schedule_compression_uses"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">  are used to find ways to bring project activities that are behind into alignment with the plan by fast tracking or crashing the schedule for the remaining work.</rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.5.2.6</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/parametric_estimating">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/estimate_activity_durations"/>
+    <pr:estimates rdf:resource="http://example.org/projectOntology/parametric_estimating_estimates"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> parametric estimating parametric estimating is an estimating technique in which an algorithm is used to calculate cost or duration based on historical data and project parameters. parametric estimating uses a statistical relationship between historical data and other variables  e.g.  square footage in construction  to calculate an estimate for activity parameters  such as cost  budget  and duration.  durations can be quantitatively determined by multiplying the quantity of work to be performed by the number of labor hours per unit of work. for example  duration on a design project is estimated by the number of drawings multiplied by the number of labor hours per drawing  or on a cable installation  the meters of cable multiplied by the number of labor hours per meter. if the assigned resource is capable of installing enterprise environmental factorsfive meters of cable per hour  the duration required to install one zero meters is forty hours  one zero meters divided by enterprise environmental factorsfive meters per hour . this technique can produce higher levels of accuracy depending on the sophistication and underlying data built into the model. parametric schedule estimates can be applied to a total project or to segments of a project  in conjunction with other estimating methods. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.4.2.3</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/work_performance_data">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/validate_scope"/>
+    <pr:describes rdf:resource="http://example.org/projectOntology/work_performance_data_describes"/>
+    <pr:includes rdf:resource="http://example.org/projectOntology/work_performance_data_includes"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> work performance data described in section four.the project manager.enterprise environmental factors. work performance data can include the degree of compliance with requirements  number of nonconformities  severity of the nonconformities  or the number of validation cycles performed in a period of time. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">work performance data can</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">on work performance information</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.5.1.4</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/requirements_management_plan">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/plan_scope_management"/>
+    <pr:describes rdf:resource="http://example.org/projectOntology/requirements_management_plan_describes"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. the requirements management plan describes how the project requirements will be managed.   change management plan. described in section four.enterprise environmental factors.overview. the change management plan defines the process for managing change on the project.   configuration management plan. described in section four.enterprise environmental factors.overview. the configuration management plan defines those items that are configurable  those items that require formal change control  and the process for controlling changes to such items.   scope baseline. described in section </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the requirements management plan</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">product requirements</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schedule activities resources</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project documents</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resource requirements</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.1.3.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/precedence_diagramming_method">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/sequence_activities"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> precedence diagramming method the precedence diagramming method  pdm  is a technique used for constructing a schedule model in which activities are represented by nodes and are graphically linked by one or more logical relationships to show the sequence in which the activities are to be performed. pdm includes four types of dependencies or logical relationships. a predecessor activity is an activity that logically comes before a dependent activity in a schedule. a successor activity is a dependent activity that logically comes after another activity in a schedule. these relationships are defined below and are illustrated in figure o ou oo nine     finish to start  fs . a logical relationship in which a successor activity cannot start until a predecessor activity has finished. for example  installing the operating system on a pc  successor  cannot start until the pc hardware is assembled  predecessor .   finish to finish  ff . a logical relationship in which a successor activity cannot finish until a predecessor activity has finished. for example  writing a document  predecessor  is required to finish before editing the document  successor  can finish.   start to start  ss . a logical relationship in which a successor activity cannot start until a predecessor activity has started. for example  level concrete  successor  cannot begin until pour foundation  predecessor  begins.   start to finish  sf . a logical relationship in which a successor activity cannot finish until a predecessor activity has started. for example  a new accounts payable system  successor  has to start before the old accounts payable system can be shut down  predecessor . in pdm  fs is the most commonly used type of precedence relationship. the sf relationship is very rarely used  but is included to present a complete list of the pdm relationship types. two activities can have two logical relationships at the same time  for example  ss and ff . multiple relationships between the same activities are not recommended  so a decision has to be made to select the relationship with the highest impact. closed loops are also not recommended in logical relationships. figure o ou oo nine. precedence diagramming method  pdm  relationship types  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.3.2.1</pr:Described_in>
+    <pr:Is_Depicted_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Figure 6-9</pr:Is_Depicted_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/project_management_plan">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/plan_scope_management"/>
+    <pr:describes rdf:resource="http://example.org/projectOntology/project_management_plan_describes"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> project management plan described in section four.enterprise environmental factors.overview. project management plan components include but are not limited to    quality management plan. described in section plan quality management.overview. the way the project and product scope will be managed can be influenced by how the organization s quality policy  methodologies  and standards are implemented on the project.   project life cycle description. the project life cycle determines the series of phases that a project passes through from its inception to the end of the project.   development approach. the development approach defines whether waterfall  iterative  adaptive  agile  or a hybrid development approach will be used. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project management plan components</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality management</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project life cycle description</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">development approach</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the plan scope management process</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the scope management plan</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project team members</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">management plan</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the change management plan</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">configuration management plan</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the configuration management plan</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">observation conversation</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">joint application design development j ad</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the software development process</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality function deployment qfd</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the project management work</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">work performance data</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">work performance information work performance information</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">change control process section</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project schedule network diagrams</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the project management team</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project management information system pmis</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project management information systems</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the project schedule network diagrams</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project team assignments</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">control schedule</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">control schedule data flow diagram</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schedule network analysis schedule network analysis is the overarching technique</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the project schedule model</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resource optimization techniques</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">performance measurement baseline</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.1.1.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/schedule_management_plan">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/plan_schedule_management"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.1.3.1</rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schedule status</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.1.3.1</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/plan_schedule_management">
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the process of establishing the policies procedures and documentation for</rdfs:isDefinedBy>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/product_analysis">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/define_scope"/>
+    <pr:uses rdf:resource="http://example.org/projectOntology/product_analysis_uses"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> product analysis product analysis can be used to define products and services. it includes asking questions about a product or service and forming answers to describe the use  characteristics  and other relevant aspects of what is going to be delivered. each application area has one or more generally accepted methods for translating high level product or service descriptions into meaningful deliverables. requirements are captured at a high level and decomposed to the level of detail needed to design the final product. examples of product analysis techniques include but are not limited to    product breakdown    requirements analysis    systems analysis    systems engineering    value analysis  and   value engineering. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">product analysis product analysis can be</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.3.2.5</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/project_charter">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/plan_scope_management"/>
+    <pr:describes rdf:resource="http://example.org/projectOntology/project_charter_describes"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> project charter described in section develop project charter.overview. the project charter documents the project purpose  high level project description  assumptions  constraints  and high level requirements that the project is intended to satisfy. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project charter</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project management plan</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scope baseline</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project knowledge</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">work package</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project work</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">work plan backlog</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project schedule</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project cost control</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.1.1.1</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/requirements_traceability_matrix">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/collect_requirements"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. the requirements traceability matrix may be updated to reflect updates in requirement documentation.  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.2.3.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/schedule_baseline">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/develop_schedule"/>
+    <pr:incorporates rdf:resource="http://example.org/projectOntology/schedule_baseline_incorporates"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. changes to the schedule baseline are incorporated in response to approved change requests related to change in project scope  resources  or activity duration estimates. the schedule baseline may be updated to reflect changes caused by schedule compression techniques or performance issues.   cost baseline. described in section determine budget.overview. changes to the cost baseline are incorporated in response to approved changes in scope  resources  or cost estimates.   performance measurement baseline. described in section four.enterprise environmental factors.overview. changes to the performance measurement baseline are incorporated in response to approved changes in scope  schedule performance  or cost estimates. in some cases  the performance variances can be so severe that a change request is put forth to revise the performance measurement baseline to provide a realistic basis for performance measurement.  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.5.3.1</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/project_management_plan_updates">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/control_scope"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> project management plan updates any change to the project management plan goes through the organization s change control process via a change request. components that may require a change request for the project management plan include but are not limited to    scope management plan. described in section </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meetings project teams may</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">change control process is</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cost aggregation cost estimates are</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.6.3.3</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/project_management_information_system">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/sequence_activities"/>
+    <pr:includes rdf:resource="http://example.org/projectOntology/project_management_information_system_includes"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> project management information system  pmis  described in section direct and manage project work.enterprise environmental factors.enterprise environmental factors. project management information systems includes scheduling software that has the capability to help plan  organize  and adjust the sequence of the activities  insert the logical relationships  lead and lag values  and differentiate the different types of dependencies. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the project purpose high level project description assumptions constraints and high level requirements that the project is</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a business system process equipment computer system etc</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the concept of progressive elaboration in iterative cycles of mock up creation user experimentation feedback generation and prototype revision</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.3.2.4</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/enterprise_environmental_factors">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/plan_scope_management"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> enterprise environmental factors the enterprise environmental factors that can influence the plan scope management process include but are not limited to    organization s culture    infrastructure    personnel administration  and   marketplace conditions.  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enterprise environmental factors the enterprise environmental factors that can</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enterprise environmental factors</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enterprise environmental factorsenterprise environmental factors</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.1.1.3</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/resource_optimization">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/develop_schedule"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. resource optimization techniques involve the scheduling of activities and the resources required by those activities while taking into consideration both the resource availability and the project time.  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.5.2.3</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/inspection">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/validate_scope"/>
+    <pr:includes rdf:resource="http://example.org/projectOntology/inspection_includes"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> inspection described in section control quality.enterprise environmental factors.three. inspection includes activities such as measuring  examining  and validating to determine whether work and deliverables meet requirements and product acceptance criteria. inspections are sometimes called reviews  product reviews  and walkthroughs. in some application areas  these different terms have unique and specific meanings. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.5.2.1</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/bottom">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/estimate_activity_durations"/>
+    <pr:estimates rdf:resource="http://example.org/projectOntology/bottom_estimates"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> bottom up estimating bottom up estimating is a method of estimating project duration or cost by aggregating the estimates of the lower  level components of the wbs. when an activity s duration cannot be estimated with a reasonable degree of confidence  the work within the activity is decomposed into more detail. the detail durations are estimated. these estimates are then aggregated into a total quantity for each of the activity s durations. activities may or may not have dependencies between them that can affect the application and use of resources. if there are dependencies  this pattern of resource usage is reflected and documented in the estimated requirements of the activity. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moderator</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">predecessor</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.4.2.5</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/scope_management_plan">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/plan_scope_management"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. the scope management plan may be updated to reflect a change in how the scope is managed.   scope baseline. described in section </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stakeholder consensus</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data flow diagram</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.1.3.1</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/expert_judgment">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/plan_scope_management"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> expert judgment described in section four.foundational elements.one expertise should be considered from individuals or groups with specialized knowledge or training in the following topics    previous similar projects  and   information in the industry  discipline  and application area. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">expert judgment</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">historical information review</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.1.2.1</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/interpersonal_and_team_skills">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/collect_requirements"/>
+    <pr:uses rdf:resource="http://example.org/projectOntology/interpersonal_and_team_skills_uses"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> interpersonal and team skills described in section four.foundational elements.three. the interpersonal and team skills that can be used in this process include but are not limited to    nominal group technique. the nominal group technique enhances brainstorming with a voting process used to rank the most useful ideas for further brainstorming or for prioritization. the nominal group technique is a structured form of brainstorming consisting of four steps   a question or problem is posed to the group. each person silently generates and writes down their ideas. the moderator writes down the ideas on a flip chart until all ideas are recorded. each recorded idea is discussed until all group members have a clear understanding. individuals vote privately to prioritize the ideas  usually using a scale of one   five  with one being the lowest and five being the highest. voting may take place in many rounds to reduce and focus in on ideas. after each round  the votes are tallied and the highest scoring ideas are selected. observation conversation. observation and conversation provide a direct way of viewing individuals in their environment and how they perform their jobs or tasks and carry out processes. it is particularly helpful for detailed processes when the people who use the product have difficulty or are reluctant to articulate their requirements. observation is also known as  job shadowing.  it is usually done externally by an observer viewing a business expert performing a job. it can also be done by a  participant observer  who actually performs a process or procedure to experience how it is done to uncover hidden requirements. facilitation. described in section four.foundational elements.three. facilitation is used with focused sessions that bring key stakeholders together to define product requirements. workshops can be used to quickly define cross functional requirements and reconcile stakeholder differences. because of their interactive group nature  well facilitated sessions can build trust  foster relationships  and improve communication among the participants  which can lead to increased stakeholder consensus. in addition  issues can be discovered earlier and resolved more quickly than in individual sessions. facilitation skills are used in the following situations  but are not limited to  m joint application design development  j ad . jad sessions are used in the software development industry. these facilitated sessions focus on bringing business subject matter experts and the development team together to gather requirements and improve the software development process.   quality function deployment  qfd . in the manufacturing industry  qfd is another facilitation technique that helps determine critical characteristics for new product development. qfd starts by collecting customer needs  also known as voice of the customer  voc . these needs are then objectively sorted and prioritized  and goals are set for achieving them. m user stories. user stories  which are short  textual descriptions of required functionality  are often developed during a requirements workshop. user stories describe the stakeholder role  who benefits from the feature  role   what the stakeholder needs to accomplish  goal   and the benefit to the stakeholder  motivation .  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpersonal and team skills</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.2.2.6</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/rolling_wave_planning">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/define_activities"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> rolling wave planning rolling wave planning is an iterative planning technique in which the work to be accomplished in the near term is planned in detail  while work further in the future is planned at a higher level. it is a form of progressive elaboration applicable to work packages  planning packages  and release planning when using an agile or waterfall approach. therefore  work can exist at various levels of detail depending on where it is in the project life cycle. during early strategic planning when information is less defined  work packages may be decomposed to the known level of detail. as more is known about the upcoming events in the near term  work packages can be decomposed into activities. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rolling wave planning rolling wave planning is an iterative planning technique in which the work to be</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agile release planning</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.2.2.3</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/cost_aggregation">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/determine_budget"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. cost aggregation  cost estimates are aggregated by work packages in accordance with the wbs. the work package cost estimates are then aggregated for the higher component levels of the wbs  such as control accounts  and  ultimately  for the entire project.  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 7.3.2.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/milestone_list">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/define_activities"/>
+    <pr:schedules rdf:resource="http://example.org/projectOntology/milestone_list_schedules"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. the milestone list has scheduled dates for specific milestones.   project schedule network diagrams. described in section </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.2.3.3</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/requirements_documentation">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/collect_requirements"/>
+    <pr:uses rdf:resource="http://example.org/projectOntology/requirements_documentation_uses"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. requirements documentation is used to detect any deviation in the agreed upon scope for the project or product.   requirements traceability matrix. described in section </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.2.3.1</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/change_requests">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/validate_scope"/>
+    <pr:completes rdf:resource="http://example.org/projectOntology/change_requests_completes"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> change requests the completed deliverables that have not been formally accepted are documented  along with the reasons for non acceptance of those deliverables. those deliverables may require a change request for defect repair. the change requests  described in section four.the project manager.four  are processed for review and disposition through the perform integrated change control process  section four.o ou oo .  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schedule changes</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">change requests</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.5.3.3</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/agile_release_planning">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/develop_schedule"/>
+    <pr:provides rdf:resource="http://example.org/projectOntology/agile_release_planning_provides"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> agile release planning agile release planning provides a high level summary timeline of the release schedule  typically three to o ou oo months  based on the product roadmap and the product vision for the product s evolution. agile release planning also determines the number of iterations or sprints in the release  and allows the product owner and team to decide how much needs to be developed and how long it will take to have a releasable product based on business goals  dependencies  and impediments. since features represent value to the customer  the timeline provides a more easily understood project schedule as it defines which feature will be available at the end of each iteration  which is exactly the depth of information the customer is looking for. figure o ou oo enterprise environmental factorszero shows the relationship among product vision  product roadmap  release planning  and iteration planning. figure o ou oo enterprise environmental factorszero. relationship between product vision  release planning  and iteration planning </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agile release planning also</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.5.2.8</pr:Described_in>
+    <pr:Is_Depicted_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Figure 6-20</pr:Is_Depicted_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/plan_scope_management">
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the process of creating a scope management plan that documents how the project</rdfs:isDefinedBy>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/agreements">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/collect_requirements"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> agreements described in section oneenterprise environmental factors.enterprise environmental factors.three.enterprise environmental factors. agreements can contain project and product requirements. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.2.1.5</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/cost_estimates">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/estimate_costs"/>
+    <pr:updates rdf:resource="http://example.org/projectOntology/cost_estimates_updates"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. cost estimates are updated to record any additional information.    project schedule. described in section o ou oo.define scope.enterprise environmental factors. estimated costs for each activity may be recorded as part of the project schedule.    risk register. described in section onefoundational elements.overview. new risks identified during this process are recorded in the risk register and managed using the risk management processes.  control costs control costs  control costs is the process of monitoring the status of the project to update the project costs and managing changes to the cost baseline. the key benefit of this process is that the cost baseline is maintained throughout the project. this process is performed throughout the project. the inputs  tools and techniques  and outputs of this process are depicted in figure seven one . figure seven oneone depicts the data flow diagram of the process.  figure seven one . control costs  inputs  tools   techniques  and outputs  figure seven oneone. control costs  data flow diagram  updating the budget requires knowledge of the actual costs spent to date. any increase to the authorized budget can only be approved through the perform integrated change control process  section four.o ou oo . monitoring the expenditure of funds without regard to the value of work being accomplished for such expenditures has little value to the project  other than to track the outflow of funds. much of the effort of cost control involves analyzing the relationship between the consumption of project funds and the work being accomplished for such expenditures. the key to effective cost control is the management of the approved cost baseline.  project cost control includes     influencing the factors that create changes to the authorized cost baseline    ensuring that all change requests are acted on in a timely manner     managing the actual changes when and as they occur     ensuring that cost expenditures do not exceed the authorized funding by period  by wbs component  by activity  and in total for the project     monitoring cost performance to isolate and understand variances from the approved cost baseline    monitoring work performance against funds expended     preventing unapproved changes from being included in the reported cost or resource usage     informing appropriate stakeholders of all approved changes and associated cost  and    bringing expected cost overruns within acceptable limits.  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 7.2.3.1</pr:Described_in>
+    <pr:Is_Depicted_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Figure 7-5</pr:Is_Depicted_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/organizational_process_assets">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/plan_scope_management"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> organizational process assets the organizational process assets that can influence the plan scope management process include but are not limited to    policies and procedures  and   historical information and lessons learned repositories.</rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organizational process assets the organizational process assets that can</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">necessary schedule reserves</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">total project costs</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.1.1.4</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/historical_information_review">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/determine_budget"/>
+    <pr:reviews rdf:resource="http://example.org/projectOntology/historical_information_review_reviews"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> historical information review  reviewing historical information can assist in developing parametric estimates or analogous estimates. historical information may include project characteristics  parameters  to develop mathematical models to predict total project costs. such models may be simple  e.g.  residential home construction is based on a certain cost per square foot of space  or complex  e.g.  one model of software development costing uses multiple separate adjustment factors  each of which has numerous points within it .  both the cost and accuracy of analogous and parametric models can vary widely. they are most likely to be reliable when     historical information used to develop the model is accurate    parameters used in the model are readily quantifiable  and    models are scalable  such that they work for large projects  small projects  and phases of a project.  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">confidential information</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 7.3.2.4</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/analogous_estimating">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/estimate_activity_durations"/>
+    <pr:uses rdf:resource="http://example.org/projectOntology/analogous_estimating_uses"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> analogous estimating analogous estimating is a technique for estimating the duration or cost of an activity or a project using historical data from a similar activity or project. analogous estimating uses parameters from a previous  similar project  such as duration  budget  size  weight  and complexity  as the basis for estimating the same parameter or measure for a future project. when estimating durations  this technique relies on the actual duration of previous  similar projects as the basis for estimating the duration of the current project. it is a gross value estimating approach  sometimes adjusted for known differences in project complexity. analogous duration estimating is frequently used to estimate project duration when there is a limited amount of detailed information about the project. analogous estimating is generally less costly and less time consuming than other techniques  but it is also less accurate. analogous duration estimates can be applied to a total project or to segments of a project and may be used in conjunction with other estimating methods. analogous estimating is most reliable when the previous activities are similar in fact and not just in appearance  and the project team members preparing the estimates have the needed expertise. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">analogous estimating</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parametric estimating</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.4.2.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/business_documents">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/collect_requirements"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> business documents described in section foundational elements.o ou oo. a business document that can influence the collect requirements process is the business case  which can describe required  desired  and optional criteria for meeting the business needs. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">context diagrams</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.2.1.4</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/project_schedule">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/develop_schedule"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. project schedule refers to the most recent version with notations to indicate updates  completed activities  and started activities as of the indicated date.   resource calendars. described in section nine.enterprise environmental factors.foundational elements. resource calendars show the availability of team and physical resources.   schedule data. described in section </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.5.3.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/three">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/estimate_activity_durations"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> three point estimating the accuracy of single point duration estimates may be improved by considering estimation uncertainty and risk. using three point estimates helps define an approximate range for an activity s duration    most likely  tm . this estimate is based on the duration of the activity  given the resources likely to be assigned  their productivity  realistic expectations of availability for the activity  dependencies on other participants  and interruptions.   optimistic  to . the activity duration based on analysis of the best case scenario for the activity.   pessimistic  tp . the duration based on analysis of the worst case scenario for the activity. depending on the assumed distribution of values within the range of the three estimates  the expected duration  te  can be calculated. one commonly used formula is triangular distribution  te equal   to  tm tp  three. triangular distribution is used when there is insufficient historical data or when using judgmental data. duration estimates based on three points with an assumed distribution provide an expected duration and clarify the range of uncertainty around the expected duration.  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">three</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.4.2.4</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/project_funding_requirements">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/determine_budget"/>
+    <pr:includes rdf:resource="http://example.org/projectOntology/project_funding_requirements_includes"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. the project funding requirements include projected expenditures plus anticipated liabilities.  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the activity resource requirements</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the project funding requirements</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 7.3.3.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/scope_baseline">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/create_wbs"/>
+    <pr:incorporates rdf:resource="http://example.org/projectOntology/scope_baseline_incorporates"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. changes to the scope baseline are incorporated in response to approved changes in scope  scope statement  the wbs  or the wbs dictionary. in some cases  scope variances can be so severe that a revised scope baseline is needed to provide a realistic basis for performance measurement.   schedule baseline. described in section o ou oo.</rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schedule baseline</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cost baseline</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.4.3.1</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/leads_and_lags">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/sequence_activities"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. leads and lags are refinements applied during network analysis to develop a viable schedule by adjusting the start time of the successor activities. leads are used in limited circumstances to advance a successor activity with respect to the predecessor activity  and lags are used in limited circumstances where processes require a set period of time to elapse between the predecessors and successors without work or resource impact.  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">questionnaires and surveys</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reviews product reviews and walkthroughs</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assumptions and constraints</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leads and lags are refinements</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opportunities or threats</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.3.2.3</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/accepted_deliverables">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/validate_scope"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> accepted deliverables deliverables that meet the acceptance criteria are formally signed off and approved by the customer or sponsor. formal documentation received from the customer or sponsor acknowledging formal stakeholder acceptance of the project s deliverables is forwarded to the close project or phase process  section close project or phase . </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.5.3.1</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/meetings">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/plan_scope_management"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> meetings project teams may attend project meetings to develop the scope management plan. attendees may include the project manager  the project sponsor  selected project team members  selected stakeholders  anyone with responsibility for any of the scope management processes  and others as needed. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requirements</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lessons</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agreements</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interviews</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ideas</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">individuals</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prototypes</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deliverables</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">activities</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retrospectives</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">changes</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.1.2.3</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/develop_schedule">
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the process of analyzing activity sequences durations resource requirements and</rdfs:isDefinedBy>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/data_analysis">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/plan_scope_management"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. a decision making technique that can be used in this process includes but is not limited to multicriteria decision analysis. described in section eight.foundational elements.four  multicriteria decision analysis is a technique that uses a decision matrix to provide a systematic analytical approach for establishing criteria  such as requirements  schedule  budget  and resources  in order to refine the project and product scope for the project. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">product deliverables</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.1.2.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/dependency_determination_and_integration">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/sequence_activities"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> dependency determination and integration dependencies may be characterized by the following attributes  mandatory or discretionary  internal or external  as described below . dependency has four attributes  but two can be applicable at the same time in the following ways  mandatory external dependencies  mandatory internal dependencies  discretionary external dependencies  or discretionary internal dependencies.   mandatory dependencies. mandatory dependencies are those that are legally or contractually required or inherent in the nature of the work. mandatory dependencies often involve physical limitations  such as on a construction project  where it is impossible to erect the superstructure until after the foundation has been built  or on an electronics project  where a prototype has to be built before it can be tested. mandatory dependencies are sometimes referred to as hard logic or hard dependencies. technical dependencies may not be mandatory. the project team determines which dependencies are mandatory during the process of sequencing the activities. mandatory dependencies should not be confused with assigning schedule constraints in the scheduling tool.   discretionary dependencies. discretionary dependencies are sometimes referred to as preferred logic  preferential logic  or soft logic. discretionary dependencies are established based on knowledge of best practices within a particular application area or some unusual aspect of the project where a specific sequence is desired  even though there may be other acceptable sequences. for example  generally accepted best practices recommend that during construction  the electrical work should start after finishing the plumbing work. this order is not mandatory and both activities may occur at the same time  in parallel   but performing the activities in sequential order reduces the overall project risk. discretionary dependencies should be fully documented since they can create arbitrary total float values and can limit later scheduling options. when fast tracking techniques are employed  these discretionary dependencies should be reviewed and considered for modification or removal. the project team determines which dependencies are discretionary during the process of sequencing the activities.    external dependencies. external dependencies involve a relationship between project activities and non  project activities. these dependencies are usually outside of the project team s control. for example  the testing activity in a software project may be dependent on the delivery of hardware from an external source  or governmental environmental hearings may need to be held before site preparation can begin on a construction project. the project management team determines which dependencies are external during the process of sequencing the activities.   internal dependencies. internal dependencies involve a precedence relationship between project activities and are generally inside the project team s control. for example  if the team cannot test a machine until they assemble it  there is an internal mandatory dependency. the project management team determines which dependencies are internal during the process of sequencing the activities. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">product service or</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">observation and conversation</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enterprise environmental factorsd and threed models mock ups or simulations</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">all product and project work</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">estimation uncertainty and risk</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">changes in scope schedule performance or cost estimates</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.3.2.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/project_calendars">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/develop_schedule"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. a schedule model may require more than one project calendar to allow for different work periods for some activities to calculate the schedule forecasts.   project schedule. described in section </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.5.3.4</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/funding_limit_reconciliation">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/determine_budget"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> funding limit reconciliation  the expenditure of funds should be reconciled with any funding limits on the commitment of funds for the project. a variance between the funding limits and the planned expenditures will sometimes necessitate the rescheduling of work to level out the rate of expenditures. this is accomplished by placing imposed date constraints for work into the project schedule.  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">planning package</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 7.3.2.5</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/project_scope_statement">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/define_scope"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> .   wbs. the wbs is a hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables. each descending level of the wbs represents an increasingly detailed definition of the project work.   work package. the lowest level of the wbs is a work package with a unique identifier. these identifiers provide a structure for hierarchical summation of costs  schedule  and resource information and form a code of accounts. each work package is part of a control account. a control account is a management control point where scope  budget  and schedule are integrated and compared to the earned value for performance measurement. a control account has two or more work packages  though each work package is associated with a single control account.   planning package. a control account may include one or more planning packages. a planning package is a work breakdown structure component below the control account and above the work package with known work content but without detailed schedule activities.    wbs dictionary. the wbs dictionary is a document that provides detailed deliverable  activity  and scheduling information about each component in the wbs. the wbs dictionary is a document that supports the wbs. most of the information included in the wbs dictionary is created by other processes and added to this document at a later stage. information in the wbs dictionary may include but is not limited to  code of account identifier  description of work  assumptions and constraints  responsible organization  schedule milestones  associated schedule activities  resources required  cost estimates  quality requirements  acceptance criteria  technical references  and agreement information. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assumption log</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the relationship among product vision product roadmap release planning and iteration planning</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.3.3.1</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/cost_baseline">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/determine_budget"/>
+    <pr:incorporates rdf:resource="http://example.org/projectOntology/cost_baseline_incorporates"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. changes to the cost baseline are incorporated in response to approved changes in scope  resources  or cost estimates. in some cases  cost variances can be so severe that a revised cost baseline is needed to provide a realistic basis for performance measurement.    performance measurement baseline. described in section four.enterprise environmental factors.overview. changes to the performance measurement baseline are incorporated in response to approved changes in scope  schedule performance  or cost estimates. in some cases  the performance variances can be so severe that a change request is put forth to revise the performance measurement baseline to provide a realistic basis for performance measurement.  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 7.3.3.1</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/estimate_activity_durations">
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the process of estimating the number of work periods needed to complete</rdfs:isDefinedBy>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/determine_budget">
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the process of aggregating the estimated costs of individual activities or work packages to</rdfs:isDefinedBy>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/schedule_forecasts">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/control_schedule"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> schedule forecasts schedule updates are forecasts of estimates or predictions of conditions and events in the project s future based on information and knowledge available at the time of the forecast. forecasts are updated and reissued based on work performance information provided as the project is executed. the information is based on the project s past performance and expected future performance based on corrective or preventive actions. this can include earned value performance indicators  as well as schedule reserve information that could impact the project in the future.  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.6.3.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/activity_list">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/define_activities"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. the activity list identifies the activities that will be included in the schedule model.   assumption log. described in section develop project charter.three.enterprise environmental factors. assumptions and constraints recorded in the assumption log may give rise to individual project risks that may impact the project schedule.    basis of estimates. described in section </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the activity list</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.2.3.1</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/cost_forecasts">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/control_costs"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> cost forecasts  either a calculated eac value or a bottom up eac value is documented and communicated to stakeholders.  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 7.4.3.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/cost_management_plan">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/plan_cost_management"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. changes to the cost management plan  such as changes to control thresholds or specified levels of accuracy required in managing the project s cost  are incorporated in response to feedback from relevant stakeholders.    cost baseline. described in section </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 7.1.3.1</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/context_diagram">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/collect_requirements"/>
+    <pr:shows rdf:resource="http://example.org/projectOntology/context_diagram_shows"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> context diagram the context diagram is an example of a scope model. context diagrams visually depict the product scope by showing a business system  process  equipment  computer system  etc.   and how people and other systems  actors  interact with it  see figure five o ou oo . context diagrams show inputs to the business system  the actor s  providing the input  the outputs from the business system  and the actor s  receiving the output. figure five o ou oo. context diagram  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.2.2.7</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/critical_path_method">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/develop_schedule"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. comparing the progress along the critical path can help determine schedule status. the variance on the critical path will have a direct impact on the project end date. evaluating the progress of activities on near critical paths can identify schedule risk. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.5.2.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/financing">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/determine_budget"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> financing  financing entails acquiring funding for projects. it is common for long term infrastructure  industrial  and public services projects to seek external sources of funds. if a project is funded externally  the funding entity may have certain requirements that are required to be met.  </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 7.3.2.6</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/project_documents_updates">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/define_scope"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> project documents updates project documents that may be updated as a result of carrying out this process include but are not limited to    assumption log. described in section develop project charter.three.enterprise environmental factors. the assumption log is updated with additional assumptions or constraints that were identified during this process.   requirements documentation. described in section </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.3.3.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/basis_of_estimates">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/estimate_activity_durations"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. the amount and type of additional details supporting the duration estimate vary by application area. regardless of the level of detail  the supporting documentation should provide a clear and complete understanding of how the duration estimate was derived.   duration estimates. described in section </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basis of estimates</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.4.3.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/activity_attributes">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/define_activities"/>
+    <pr:updates rdf:resource="http://example.org/projectOntology/activity_attributes_updates"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. activity attributes are updated to include any revised resource requirements and any other revisions generated by the develop schedule process.   assumption log. described in section develop project charter.three.enterprise environmental factors. the assumption log may be updated with changes to assumptions in duration  resource utilization  sequencing  or other information that is revealed as a result of developing the schedule model.   duration estimates. described in section </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.2.3.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/work_performance_information">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/validate_scope"/>
+    <pr:includes rdf:resource="http://example.org/projectOntology/work_performance_information_includes"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> work performance information work performance information includes information about project progress  such as which deliverables have been accepted and which have not been accepted and the reasons why. this information is documented as described in section ten point three.overview and communicated to stakeholders. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.5.3.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/duration_estimates">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/estimate_activity_durations"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. the number and availability of resources  along with the activity dependencies can result in a change to the duration estimates. if the resource leveling analysis changes the resource requirements  then the duration estimates will likely need to be updated as well.   lessons learned register. described in section manage project knowledge.overview. the lessons learned register can be updated with techniques that were efficient and effective in developing the schedule model.   resource requirements. described in section nine.enterprise environmental factors.overview. resource leveling can have a significant effect on preliminary estimates for the types and quantities of resources required. if the resource leveling analysis changes the resource requirements  then the resource requirements are updated.   risk register. described in section onefoundational elements.overview. the risk register may need to be updated to reflect opportunities or threats perceived through scheduling assumptions.  o ou oo.o ou oo control schedule control schedule is the process of monitoring the status of the project to update the project schedule and managing changes to the schedule baseline. the key benefit of this process is that the schedule baseline is maintained throughout the project. this process is performed throughout the project. the inputs  tools and techniques  and outputs of this process are depicted in figure o ou oo enterprise environmental factorsenterprise environmental factors. figure o ou oo enterprise environmental factorsthree depicts the data flow diagram of the process. figure o ou oo enterprise environmental factorsenterprise environmental factors. control schedule  inputs  tools   techniques  and outputs  figure o ou oo enterprise environmental factorsthree. control schedule  data flow diagram updating the schedule model requires knowing the actual performance to date. any change to the schedule baseline can only be approved through the perform integrated change control process  section four.o ou oo . control schedule  as a component of the perform integrated change control process  is concerned with    determining the current status of the project schedule    influencing the factors that create schedule changes    reconsidering necessary schedule reserves    determining if the project schedule has changed  and   managing the actual changes as they occur.  when an agile approach is used  control schedule is concerned with    determining the current status of the project schedule by comparing the total amount of work delivered and accepted against the estimates of work completed for the elapsed time cycle    conducting retrospectives  scheduled reviews to record lessons learned  for correcting processes and improving  if required    reprioritizing the remaining work plan  backlog     determining the rate at which the deliverables are produced  validated  and accepted  velocity  in the given time per iteration  agreed upon work cycle duration  typically enterprise environmental factors weeks or one month     determining that the project schedule has changed  and   managing the actual changes as they occur. when work is being contracted  regular and milestone status updates from contractors and suppliers are a means of ensuring the work is progressing as agreed upon to ensure the schedule is under control. scheduled status reviews and walkthroughs should be done to ensure the contractor reports are accurate and complete.</rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">duration estimates</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.4.3.1</pr:Described_in>
+    <pr:Is_Depicted_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Figure 6-11</pr:Is_Depicted_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/verified_deliverables">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/validate_scope"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> verified deliverables verified deliverables are project deliverables that are completed and checked for correctness through the control quality process. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hidden requirements</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.5.1.3</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/plan_cost_management">
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the process of defining how the project costs will be estimated budgeted managed</rdfs:isDefinedBy>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/project_schedule_network_diagrams">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/sequence_activities"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. the project schedule network diagrams contain the logical relationships of predecessors and successors that will be used to calculate the schedule.   project team assignments. described in section nine point three.overview. the project team assignments specify which resources are assigned to each activity.   resource calendars. described in sections nine.enterprise environmental factors.foundational elements. the resource calendars contain information on the availability of resources during the project.   resource requirements. described in section nine.enterprise environmental factors.overview. the activity resource requirements identify the types and quantities of resources required for each activity used to create the schedule model.   risk register. described in section onefoundational elements.overview. the risk register provides the details of all identified risks  and their characteristics  that affect the schedule model. risk information relevant to the schedule is reflected in schedule reserves using the expected or mean risk impact. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.3.3.1</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/data_gathering">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/collect_requirements"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> data gathering data gathering techniques that can be used for this process include but are not limited to      brainstorming. described in section four.foundational elements.enterprise environmental factors. brainstorming is a technique used to generate and collect multiple ideas related to project and product requirements. interviews. an interview is a formal or informal approach to elicit information from stakeholders by talking to them directly. it is typically performed by asking prepared and spontaneous questions and recording the responses. interviews are often conducted on an individual basis between an interviewer and an interviewee  but may involve multiple interviewers and or multiple interviewees. interviewing experienced project participants  sponsors  other executives  and subject matter experts can aid in identifying and defining the features and functions of the desired product deliverables. interviews are also useful for obtaining confidential information. focus groups. focus groups bring together prequalified stakeholders and subject matter experts to learn about their expectations and attitudes about a proposed product  service  or result. a trained moderator guides the group through an interactive discussion designed to be more conversational than a one on one interview.    questionnaires and surveys. questionnaires and surveys are written sets of questions designed to quickly accumulate information from a large number of respondents. questionnaires and or surveys are most appropriate with varied audiences  when a quick turnaround is needed  when respondents are geographically dispersed  and where statistical analysis could be appropriate.   benchmarking. described in section eight.foundational elements.enterprise environmental factors. benchmarking involves comparing actual or planned products  processes  and practices to those of comparable organizations to identify best practices  generate ideas for improvement  and provide a basis for measuring performance. the organizations compared during benchmarking can be internal or external. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.2.2.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/data_representation">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/collect_requirements"/>
+    <pr:techniques rdf:resource="http://example.org/projectOntology/data_representation_techniques"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> data representation data representation techniques that can be used for this process include but are not limited to    affinity diagrams. affinity diagrams allow large numbers of ideas to be classified into groups for review and analysis.   mind mapping. mind mapping consolidates ideas created through individual brainstorming sessions into a single map to reflect commonality and differences in understanding and to generate new ideas. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.2.2.5</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/schedule_data">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/develop_schedule"/>
+    <pr:reviews rdf:resource="http://example.org/projectOntology/schedule_data_reviews"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. schedule data will be reviewed and updated in the control schedule process. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.5.3.3</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/collect_requirements">
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the process of determining documenting and managing stakeholder needs and</rdfs:isDefinedBy>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/estimate_costs">
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the process of developing an approximation of the monetary resources needed to complete</rdfs:isDefinedBy>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/sequence_activities">
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the process of identifying and documenting relationships among the project activities</rdfs:isDefinedBy>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/decision_making">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/collect_requirements"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">. an example of decision making that may be used in this process includes but is not limited to voting. voting is used to reach a conclusion when the validation is performed by the project team and other stakeholders.</rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.2.2.4</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/project_documents">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/collect_requirements"/>
+    <pr:considers rdf:resource="http://example.org/projectOntology/project_documents_considers"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> project documents examples of project documents that can be considered as inputs for this process include but are not limited to    assumption log. described in section develop project charter.three.enterprise environmental factors. the assumption log identified assumptions about the product  project  environment  stakeholders  and other factors that can influence requirements.   lessons learned register. described in section manage project knowledge.overview. the lessons learned register is used to provide information on effective requirements collection techniques  especially for projects that are using an iterative or adaptive product development methodology.   stakeholder register. described in section oneoverview.overview. the stakeholder register is used to identify stakeholders who can provide information on the requirements. it also captures requirements and expectations that stakeholders have for the project. </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">business documents</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">focus groups</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resource calendars</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">control costs</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.2.1.3</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/schedule_network_analysis">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/develop_schedule"/>
+    <pr:overarchs rdf:resource="http://example.org/projectOntology/schedule_network_analysis_overarchs"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> schedule network analysis schedule network analysis is the overarching technique used to generate the project schedule model. it employs several other techniques such as critical path method  described in section </rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 6.5.2.1</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/control_scope">
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the process of monitoring the status of the project and product scope and managing changes</rdfs:isDefinedBy>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/control_schedule">
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the process of monitoring the status of the project to update the project schedule and</rdfs:isDefinedBy>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/decomposition">
+    <rdfs:subClassOf rdf:resource="http://example.org/projectOntology/create_wbs"/>
+    <pr:shows rdf:resource="http://example.org/projectOntology/decomposition_shows"/>
+    <pr:requires rdf:resource="http://example.org/projectOntology/decomposition_requires"/>
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> decomposition decomposition is a technique used for dividing and subdividing the project scope and project deliverables into smaller  more manageable parts. the work package is the work defined at the lowest level of the wbs for which cost and duration can be estimated and managed. the level of decomposition is often guided by the degree of control needed to effectively manage the project. the level of detail for work packages will vary with the size and complexity of the project. decomposition of the total project work into work packages generally involves the following activities    identifying and analyzing the deliverables and related work    structuring and organizing the wbs    decomposing the upper wbs levels into lower level detailed components    developing and assigning identification codes to the wbs components  and   verifying that the degree of decomposition of the deliverables is appropriate. a portion of a wbs with some branches of the wbs decomposed down through the work package level is shown in figure five oneenterprise environmental factors. figure five oneenterprise environmental factors  sample wbs decomposed down through work packages  a wbs structure may be created through various approaches. some of the popular methods include the top down approach  the use of organization specific guidelines  and the use of wbs templates. a bottom up approach can be used to group subcomponents. the wbs structure can be represented in a number of forms  such as    using phases of the project life cycle as the second level of decomposition  with the product and project deliverables inserted at the third level  as shown in figure five one     using major deliverables as the second level of decomposition  as shown in figure five one   and   incorporating subcomponents that may be developed by organizations outside the project team  such as contracted work. the seller then develops the supporting contract wbs as part of the contracted work. figure five one   sample wbs organized by phase  figure five one . sample wbs with major deliverables decomposition of the upper level wbs components requires subdividing the work for each of the deliverables or subcomponents into its most fundamental components  where the wbs components represent verifiable products  services  or results. if an agile approach is used  epics can be decomposed into user stories. the wbs may be structured as an outline  an organizational chart  or other method that identifies a hierarchical breakdown. verifying the correctness of the decomposition requires determining that the lower level wbs components are those that are necessary and sufficient for completion of the corresponding higher level deliverables. different deliverables can have different levels of decomposition. to arrive at a work package  the work for some deliverables needs to be decomposed only to the next level  while others need additional levels of decomposition. as the work is decomposed to greater levels of detail  the ability to plan  manage  and control the work is enhanced. however  excessive decomposition can lead to nonproductive management effort  inefficient use of resources  decreased efficiency in performing the work  and difficulty aggregating data over different levels of the wbs. decomposition may not be possible for a deliverable or subcomponent that will be accomplished far into the future. the project management team usually waits until the deliverable or subcomponent is agreed on  so the details of the wbs can be developed. this technique is sometimes referred to as rolling wave planning.  the wbs represents all product and project work  including the project management work. the total of the work at the lowest levels should roll up to the higher levels so that nothing is left out and no extra work is performed. this is sometimes called the one   percent rule. for specific information regarding the wbs  refer to the practice standard for work breakdown structures   second edition  onefive . this standard contains industry specific examples of wbs templates that can be tailored to specific projects in a particular application area.</rdfs:isDefinedBy>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">performance</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facilitation</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">documentation</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contract</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inspection</rdfs:seeAlso>
+    <pr:Described_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">section 5.4.2.2</pr:Described_in>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/validate_scope">
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the process of formalizing acceptance of the completed project deliverables</rdfs:isDefinedBy>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/create_wbs">
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the process of subdividing project deliverables and project work into smaller more manageable</rdfs:isDefinedBy>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/define_scope">
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the process of developing a detailed description of the project and product</rdfs:isDefinedBy>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/control_costs">
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the process of monitoring the status of the project to update the project costs and manage</rdfs:isDefinedBy>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/projectOntology/define_activities">
+    <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the process of identifying and documenting the specific actions to be performed to produce</rdfs:isDefinedBy>
+  </owl:Class>
+</rdf:RDF>
